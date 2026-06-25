@@ -1,5 +1,7 @@
 git clone https://github.com/pratyush4barik/Model.git
 
+cd Model
+
 docker compose up -d
 
 docker exec -i pgvec psql -U postgres visit_db < visit_db.sql
